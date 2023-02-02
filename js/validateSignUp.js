@@ -43,7 +43,13 @@ buttonSignUp.addEventListener("click", () => {
         } else {
             textEmail.innerText = "* Email nhập không hợp lệ"
         }
-    }else {
+    }
+
+
+
+
+
+    else {
         let isValueEmail = validateEmail(emailSignUp)   // true  or false
         if (emailSignUp.match(regexEmail)) {
             textEmail.innerText = ""
