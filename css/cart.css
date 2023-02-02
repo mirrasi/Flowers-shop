@@ -1,0 +1,66 @@
+.jumbotron {
+    background-size: cover;
+    padding: 40px;
+    margin-top: 70px;
+}
+
+/* .navbar {
+    background: #f44336 !important;
+} */
+
+.jumbotron .container {
+    background: #00000094;
+    padding: 30px 0;
+    text-shadow: 1px 1px 2px black;
+}
+
+
+.cart-wrapper {
+    position: fixed;
+    top: 70px;
+    width: 50%;
+    right: -600px;
+    background: white;
+    box-shadow: 1px 1px 4px black;
+    padding: 4%;
+    height: 85vh;
+    transition: right 300ms;
+}
+
+tfoot td {
+    text-align: right;
+    padding-right: 50px !important;
+}
+
+.cart-on {
+    right: 0;
+}
+
+.card img {
+    height: 30vh;
+    object-fit: contain;
+    padding: 15px;
+}
+
+.list-group-counter {
+    padding: 10px;
+    text-align: center;
+}
+
+
+.card {
+    position: relative;
+}
+
+button.btn.btn-light.bought {
+    position: absolute;
+    top: -18px;
+    left: -15px;
+    box-shadow: 1px 1px 3px grey;
+    display: none;
+}
+
+.btn:hover{
+    background-color: #e1603a;
+    cursor: pointer;
+}

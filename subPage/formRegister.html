@@ -23,50 +23,50 @@
     <link rel="stylesheet" href="../css/formRegister.css">
 </head>
 
-<body>
-    <header class="header_section">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg custom_nav-container ">
-                <a class="navbar-brand" href="../index.html">
-                    <span>
-                        Flowers
-                    </span>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+<body class="sub_page">
+    <div class="hero_area">
+        <header class="header_section">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg custom_nav-container ">
+                    <a class="navbar-brand" href="../index.html">
+                        <span>
+                            Flowers
+                        </span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
-                        <ul class="navbar-nav  ">
-                            <li class="nav-item">
-                                <a class="nav-link" href="../index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html"> About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="gallery.html"> Gallery </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact us</a>
-                            </li>
-                        </ul>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
+                            <ul class="navbar-nav  ">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html"> About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="gallery.html"> Gallery </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact us</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="quote_btn-container ">
+                            <a href="./cart.html">
+                                <img src="../images/cart.png" alt="">
+                            </a>
+                        </div>
                     </div>
-                    <div class="quote_btn-container ">
-                        <a href="">
-                            <img src="../images/cart.png" alt="">
-                        </a>
-                        <form class="form-inline">
-                            <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
-                        </form>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
+                </nav>
+            </div>
+        </header>
+    </div>
+    
     <div class="cotn_principal">
         <div class="cont_centrar">
             <div class="cont_login">
@@ -94,18 +94,16 @@
 
                 <div class="cont_back_info">
                     <div class="cont_img_back_grey">
-                        <img src="https://images.unsplash.com/42/U7Fc1sy5SCUDIu4tlJY3_NY_by_PhilippHenzler_philmotion.de.jpg?ixlib=rb-0.3.5&q=50&fm=jpg&crop=entropy&s=7686972873678f32efaf2cd79671673d"
-                            alt="" />
+                        <img src="../images/g-5.jpg" alt="" />
                     </div>
 
                 </div>
                 <div class="cont_forms">
                     <div class="cont_img_back_">
-                        <img src="https://images.unsplash.com/42/U7Fc1sy5SCUDIu4tlJY3_NY_by_PhilippHenzler_philmotion.de.jpg?ixlib=rb-0.3.5&q=50&fm=jpg&crop=entropy&s=7686972873678f32efaf2cd79671673d"
-                            alt="" />
+                        <img src="../images/g-5.jpg" alt="" />
                     </div>
                     <div class="cont_form_login">
-                        <a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
+                        <a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons">x</i></a>
                         <h2>LOGIN</h2>
                         <div id="textLogin" class="styleText"></div>
                         <input id="eLogin" type="text" placeholder="Email" />
@@ -114,7 +112,7 @@
                     </div>
 
                     <div class="cont_form_sign_up">
-                        <a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
+                        <a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons">x</i></a>
                         <h2>SIGN UP</h2>
                         <input id="eSignUp" type="text" placeholder="Email" />
                         <div id="textEmailSignUp" class="styleText"></div>

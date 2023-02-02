@@ -37,21 +37,13 @@ buttonSignUp.addEventListener("click", () => {
                     window.location.href = "../index.html"
                 }
             } else {
-                textPWD.innerText = "* Vui lòng nhập ít nhất 8 kí tự (bao gồm: chữ thường, in hoa, số)"
+                textPWD.innerText = "* Vui lòng nhập ít nhất 8 ký tự (bao gồm: chữ thường, in hoa, số)"
             }
 
         } else {
             textEmail.innerText = "* Email nhập không hợp lệ"
         }
-
-    }
-
-
-
-
-
-
-    else {
+    }else {
         let isValueEmail = validateEmail(emailSignUp)   // true  or false
         if (emailSignUp.match(regexEmail)) {
             textEmail.innerText = ""
@@ -72,7 +64,7 @@ buttonSignUp.addEventListener("click", () => {
                         window.location.href = "../index.html"
                     }
                 } else {
-                    textPWD.innerText = "* Vui lòng nhập ít nhất 8 kí tự (bao gồm: chữ thường, in hoa, số)"
+                    textPWD.innerText = "* Vui lòng nhập ít nhất 8 ký tự (bao gồm: chữ thường, in hoa, số)"
                 }
 
             }
